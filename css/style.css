@@ -1,0 +1,87 @@
+header {
+	/*  background-image: -webkit-linear-gradient(#C800FF,
+    #55DFFF); */
+	  background: url(../night-sky.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	margin-bottom: 50px;
+	height: 250px;
+	margin-top: -20px;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+  background-color: #6C73A1;
+  color:#eeeeee;
+}
+.search_container {
+	color: #fff;
+	text-align: center;	
+	padding-top: 50px;
+	width: 20em;
+	margin: auto;
+}
+
+#newForm {
+	margin-top: 200px;
+
+}
+.form-control {
+	text-align: center;
+}
+
+body {
+	background: #6C73A1;
+}
+
+.wrapper {
+	margin: auto;
+	margin-top: 10px;
+	background: #f4f4f4;
+	width: 85%;
+	min-width: 700px;
+}
+.wrapper {border-radius: 10px; margin: auto; padding: 5px;}
+
+h1 {
+  font-weight: bold;
+  color: #9D7AAE;
+}
+#b-title {
+	padding: auto;
+	margin: auto;	
+}
+
+#b-title h1 {
+	text-align: center;
+	color: #4C6A94;
+}
+ 
+table, th, tr, td{white-space:nowrap;border-collapse:collapse;font-family:"san-serif", Arial, Helvetica, sans-serif; color: #333;}
+table {width: 80%; margin: auto;} 
+
+#security td {border: 1px solid #00B302; padding: 3px 7px 2px 7px;} 
+#security th {border: 1px solid #00B302; padding: 3px 7px 2px 7px; color: white; background-color: #00B302;} 
+#security tr:nth-child(odd) {background: #F6F6F6;}
+#security tr:nth-child(even) {background: #D7FFDE;}
+ 
+#itc td {border: 1px solid #A8A518; padding: 3px 7px 2px 7px;}
+#itc th {border: 1px solid #A8A518; padding: 3px 7px 2px 7px; color: white; background-color: #A8A518;}
+#itc tr:nth-child(odd) {background: #F6F6F6;}
+#itc tr:nth-child(even) {background: #FFFECA;}
+ 
+#cs td {border: 1px solid #94ADF8; padding: 3px 7px 2px 7px;} 
+#cs th {border: 1px solid #94ADF8; padding: 3px 7px 2px 7px; color: white; background-color: #94ADF8; }
+#cs tr:nth-child(odd) {background: #F6F6F6;}
+#cs tr:nth-child(even) {background: #CAD7FF;}
+ 
+#fulfillment td {border: 1px solid #FC7D7D; padding: 3px 7px 2px 7px;}
+#fulfillment th {border: 1px solid #FC7D7D; padding: 3px 7px 2px 7px; color: white;  background-color: #FC7D7D;}
+#fulfillment tr:nth-child(odd) {background: #F6F6F6;}
+#fulfillment tr:nth-child(even) {background: #FFE5E5;}
+ 
+.h_message, ul , h1 { font-family: sans-serif} 
+.r_security, .r_itc, .r_cs,.r_fulfillment, {font-weight: bold;}
+
+h2 {margin: 25px 0px 0px; background: #bbb; padding: 10px 0 5px 10px; color: #333; font-size: 20px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
